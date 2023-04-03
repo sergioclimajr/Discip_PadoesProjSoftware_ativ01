@@ -1,14 +1,14 @@
 package locadora;
 
 public abstract class Extrato {
-    protected Cliente cliente;
+    protected ICliente iCliente;
     
     protected abstract String gerarCabecalho();
     protected abstract String gerarRodape();
     protected abstract String gerarCorpo();
     
-    public Extrato(Cliente cliente) {
-        this.cliente = cliente;
+    public Extrato(ICliente cliente) {
+        this.iCliente = cliente;
     }
     
     public String gerarExtrato() {

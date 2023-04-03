@@ -3,7 +3,7 @@ package locadora;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cliente {
+public class Cliente implements ICliente{
 	private String nome;
 	private List<Aluguel> dvdsAlugados = new ArrayList<Aluguel>();
 	

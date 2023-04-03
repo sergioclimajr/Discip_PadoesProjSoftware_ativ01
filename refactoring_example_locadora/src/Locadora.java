@@ -21,7 +21,7 @@ public class Locadora {
 		c2.adicionaAluguel(new Aluguel(new Jogo("God of War", Jogo.ONLINE, "PS5"), 9));
 		
 		
-		ExtratoHTML extratoHTML = new ExtratoHTML(c2);
+		ExtratoHTML extratoHTML = new ExtratoHTML(c1);
         System.out.println(extratoHTML.gerarExtrato());
 	}
 }
