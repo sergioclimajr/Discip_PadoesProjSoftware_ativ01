@@ -7,4 +7,3 @@ public interface Classificacao {
 		return 1;
 	}
 }
-

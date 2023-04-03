@@ -43,15 +43,13 @@ public class Jogo implements Alugavel {
 	}
 
 	@Override
-	public double getValorDoAluguel(int diasAlugada) {
-		// TODO Auto-generated method stub
-		return 0;
+	public double getValorDoAluguel(int diasAlugado) {
+		return classificacao.getValorDoAluguel(diasAlugado);
 	}
 
 	@Override
-	public int getPontosDeAlugadorFrequente(int diasAlugada) {
-		// TODO Auto-generated method stub
-		return 0;
+	public int getPontosDeAlugadorFrequente(int diasAlugado) {
+		return classificacao.getPontosDeAlugadorFrequente(diasAlugado);
 	}
 	
 	public String getConsole(String console) {

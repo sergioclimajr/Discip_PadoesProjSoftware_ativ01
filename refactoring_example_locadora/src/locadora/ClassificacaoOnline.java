@@ -10,10 +10,10 @@ public class ClassificacaoOnline implements ClassificacaoJogo {
 
 	@Override
 	public double getValorDoAluguel(int diasAlugado) {
-		double valorCorrente = 4;
+		double valorCorrente = 4 * diasAlugado;
 		
 		if(diasAlugado > 3) {
-			valorCorrente += (diasAlugado - 3) * 3;
+			valorCorrente = 3 * diasAlugado;
 		}
 		
 		return valorCorrente;

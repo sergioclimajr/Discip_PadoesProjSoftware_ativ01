@@ -17,7 +17,7 @@ public class Locadora {
 		c1.adicionaAluguel(new Aluguel(new DVD("Arremessando Alto", DVD.LANCAMENTO), 4));
 		c1.adicionaAluguel(new Aluguel(new DVD("Moana", DVD.INFANTIL), 10));
 		c1.adicionaAluguel(new Aluguel(new DVD("Uma Noite no Museu", DVD.NORMAL), 3));
-		c2.adicionaAluguel(new Aluguel(new Jogo("Resident Evil", Jogo.ONLINE, "PS5"), 8));
+		c2.adicionaAluguel(new Aluguel(new Jogo("Resident Evil", Jogo.ONLINE, "PS5"), 4));
 		c2.adicionaAluguel(new Aluguel(new Jogo("God of War", Jogo.ONLINE, "PS5"), 9));
 		
 		
