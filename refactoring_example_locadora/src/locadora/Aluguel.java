@@ -4,7 +4,6 @@ public class Aluguel {
 	private Alugavel alugavel;
 	private int diasAlugado;
 	
-	 
 	   public Aluguel(Alugavel alugavel, int diasAlugado) {
 	      this.alugavel = alugavel;
 	      this.diasAlugado = diasAlugado;
